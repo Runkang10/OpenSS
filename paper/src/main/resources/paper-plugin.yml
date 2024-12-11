@@ -1,0 +1,5 @@
+name: OpenSS
+version: ${version}
+main: io.github.runkang10.openss.paper.PaperPlugin
+api-version: '1.21'
+authors: [Runkang10]
