@@ -1,5 +1,21 @@
-name: OpenSS
+name: ${name}
+description: A ScreenShare plugin for modern Minecraft.
+prefix: ${prefix}
 version: ${version}
 main: io.github.runkang10.openss.paper.PaperPlugin
 api-version: '1.21'
 authors: [Runkang10]
+website: https://github.com/Runkang10/OpenSS/
+load: POSTWORLD
+
+dependencies:
+  server:
+    LuckPerms:
+      load: BEFORE
+      required: true
+    TAB:
+      load: BEFORE
+      required: false
+    Advanced Ban:
+      load: BEFORE
+      required: false

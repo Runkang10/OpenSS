@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Paper/OpenSS.Paper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Paper/OpenSS.Paper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/OpenSS.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/OpenSS.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/OpenSS.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/OpenSS.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OpenSS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/OpenSS.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Paper/OpenSS.paper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Paper/OpenSS.paper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paper/OpenSS.paper.test.iml" filepath="$PROJECT_DIR$/.idea/modules/paper/OpenSS.paper.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OpenSS.test.iml" filepath="$PROJECT_DIR$/.idea/modules/OpenSS.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/velocity/OpenSS.velocity.main.iml" filepath="$PROJECT_DIR$/.idea/modules/velocity/OpenSS.velocity.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/velocity/OpenSS.velocity.test.iml" filepath="$PROJECT_DIR$/.idea/modules/velocity/OpenSS.velocity.test.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,5 @@
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.21.4-R0.1-SNAPSHOT")
 }
 
 tasks.shadowJar {
@@ -9,10 +9,16 @@ tasks.shadowJar {
 }
 
 tasks.processResources {
-    val props = mapOf("version" to version)
-    inputs.properties(props)
+    val data = mapOf(
+        "name" to rootProject.name,
+        "description" to description,
+        "prefix" to rootProject.extra["prefix"] as String,
+        "version" to version,
+        "configVersion" to rootProject.extra["configVersion"] as String
+    )
     filteringCharset = "UTF-8"
+    inputs.properties(data)
     filesMatching("**/paper-plugin.yml") {
-        expand(props)
+        expand(data)
     }
 }

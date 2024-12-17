@@ -1,0 +1,8 @@
+config-version: ${configVersion}
+
+world:
+  enabled: false
+  world-name:
+
+
+server:

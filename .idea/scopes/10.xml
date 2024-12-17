@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="10" pattern="file[OpenSS*]:*//*||file[OpenSS]:*/" />
+</component>
